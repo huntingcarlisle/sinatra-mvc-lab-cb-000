@@ -2,6 +2,9 @@ class PigLatinizer
   attr_accessor :text
   @@vowels = ['a', 'e', 'i', 'o', 'u']
 
+  def initialize(text = nil)
+    @text = text
+  end
  
   def piglatinize(phrase)
     words = phrase.split(" ")
