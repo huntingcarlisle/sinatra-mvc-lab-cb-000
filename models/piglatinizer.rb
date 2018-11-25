@@ -1,5 +1,6 @@
 class PigLatinizer
   attr_accessor :text
+  
   @@vowels = ['a', 'e', 'i', 'o', 'u']
 
   def initialize(text = nil)
